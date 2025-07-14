@@ -58,6 +58,30 @@ docker rmi -f <image_id>
 docker system prune -a
 
 
+🚀 Common Docker Compose Commands
+
+🆙 Start all services
+docker-compose up
+
+➡️ Add -d to run in detached mode (background):
+docker-compose up -d
+
+🛑 Stop services
+docker-compose down
+➡️ To remove volumes as well:
+docker-compose down -v
+
+🔄 Restart services
+docker-compose restart
+
+🔁 Rebuild images (if Dockerfile changed)
+docker-compose up --build
+
+
+
+
+
+
 🔗 References
 🐋 Dockerfile Docs: https://docs.docker.com/engine/reference/builder/
 🧰 Docker CLI Reference: https://docs.docker.com/engine/reference/commandline/docker/
