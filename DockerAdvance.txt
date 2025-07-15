@@ -1,0 +1,11 @@
+1. Docker Networking
+
+- Bridge 
+- Host 
+
+2. Volume Mounting
+
+3. Efficient caching in layers
+
+4. Docker Multi-Stage Builds
+
